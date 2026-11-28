@@ -15,10 +15,10 @@
 // A computed route: the sector sequence plus its total travel time in ticks.
 struct Route
 {
-    int* sectors;     // sector indices from source to destination
-    int length;       // number of sectors in the sequence
-    int totalCost;    // total travel time in ticks
-    bool found;       // false when the destination is unreachable
+    int *sectors;  // sector indices from source to destination
+    int length;    // number of sectors in the sequence
+    int totalCost; // total travel time in ticks
+    bool found;    // false when the destination is unreachable
 };
 
 // One entry of the custom min-heap used inside Dijkstra.
@@ -32,7 +32,7 @@ struct HeapEntry
 class DistanceHeap
 {
 private:
-    HeapEntry* data;
+    HeapEntry *data;
     int capacity;
     int count;
 
@@ -51,15 +51,15 @@ public:
 class RouteFinder
 {
 private:
-    SpaceGraph* graph;
+    SpaceGraph *graph;
 
 public:
-    RouteFinder(SpaceGraph* airspace);
+    RouteFinder(SpaceGraph *airspace);
 
-    Route findFastestRoute(const std::string& sourceSector,
-                           const std::string& destinationRunway);
-    void printRoute(const Route& route) const;
-    static void releaseRoute(Route& route);     // free the sector array
+    Route findFastestRoute(const std::string &sourceSector,
+                           const std::string &destinationRunway);
+    void printRoute(const Route &route) const;
+    static void releaseRoute(Route &route); // free the sector array
 };
 
 #endif
