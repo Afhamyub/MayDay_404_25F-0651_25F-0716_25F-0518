@@ -1,6 +1,6 @@
 # MayDay-404 — A Real-Time ATC Simulator
 
-CL2001 Data Structures — BCS 3, Section CS-3 E/F, Fall 2026 semester project.
+CL2001 Data Structures — BCS 3, Section CS-3 E, Fall 2026 semester project.
 
 Course Instructor: Ma'am Zainab Noor
 
