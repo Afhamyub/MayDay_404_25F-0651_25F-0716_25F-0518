@@ -8,9 +8,9 @@ Course Instructor: Ma'am Zainab Noor
 
 | Student | Roll Number | Work description |
 |---|---|---|
-| Afham Ayub | 25F-0651 | Module 1, Module 2, Module 3, Module 5 (Phase 1 registry/hash table/dispatch/undo, AVL rotations) |
+| Afham Ayub | 25F-0651 | Module 8, Module 9, Module 10 (Dijkstra routing, Kruskal MST, game loop integration) |
 | Hijab Habib | 25F-0518 | Module 4, Module 6, Module 7, Module 11 (BST, airspace graph, BFS/DFS, file persistence/leaderboard) |
-| Abdullah Sultan | 25F-0716 | Module 8, Module 9, Module 10 (Dijkstra routing, Kruskal MST, game loop integration) |
+| Abdullah Sultan | 25F-0716 | Module 1, Module 2, Module 3, Module 5 (Phase 1 registry/hash table/dispatch/undo, AVL rotations) |
 
 ## Build and run
 
